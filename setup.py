@@ -12,8 +12,8 @@ with open(os.path.join(HERE, "README.md")) as fid:
 
 # This call to setup() does all the work
 setup(
-    name="realpython-reader",
-    version="1.0.0",
+    name="xrealpython-reader",
+    version="1.0.1",
     description="Read the latest Real Python tutorials",
     long_description=README,
     long_description_content_type="text/markdown",
