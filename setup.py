@@ -13,7 +13,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 # This call to setup() does all the work
 setup(
     name="xrealpython-reader",
-    version="1.0.6",
+    version="1.0.7",
     description="Read the latest Real Python tutorials",
     long_description=README,
     long_description_content_type="text/markdown",
