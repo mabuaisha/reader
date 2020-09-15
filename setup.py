@@ -13,12 +13,12 @@ with open(os.path.join(HERE, "README.md")) as fid:
 # This call to setup() does all the work
 setup(
     name="xrealpython-reader",
-    version="1.0.1",
+    version="1.0.2",
     description="Read the latest Real Python tutorials",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/realpython/reader",
-    author="Real Python",
+    url="https://github.com/mabuaisha/reader",
+    author="X Real Python",
     author_email="info@realpython.com",
     license="MIT",
     classifiers=[
@@ -32,5 +32,5 @@ setup(
     install_requires=[
         "feedparser", "html2text", "importlib_resources", "typing"
     ],
-    entry_points={"console_scripts": ["realpython=reader.__main__:main"]},
+    entry_points={"console_scripts": ["xrealpython=reader.__main__:main"]},
 )
